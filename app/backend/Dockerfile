@@ -4,6 +4,6 @@ WORKDIR /app-backend
 
 COPY . .
 
-RUN npm install
+RUN npm install formidable@v2
 
 CMD ["npm", "start"]
