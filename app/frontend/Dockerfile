@@ -4,7 +4,7 @@ WORKDIR /app-frontend
 
 COPY . .
 
-RUN npm install
+RUN npm install formidable@v2
 
 RUN npm run build
 
